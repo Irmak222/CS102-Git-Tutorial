@@ -16,7 +16,7 @@ public class Cipher
         for (int i = 0; i < inputString.length(); i++)   
         {
             char currentChar = inputString.charAt(i);
-            outputString += replaceChar(currentChar, true)
+            outputString += replaceChar(currentChar, true);
         }
 
         return outputString;
@@ -63,3 +63,4 @@ public class Cipher
     }
 
 }   
+
